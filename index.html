@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-image: url("western.jpg");}
+h1   {color: white; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif}
+h2   {color: white; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif}
+p    {color: black; font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;}
+
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:center;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+    display: inline;
+    list-style-type: none;
+}
+ul {
+  text-align:center;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+<center><img src="logo.jpg" height="142" width="242"></center>
+<ul>
+  <li><a href="index.html"> HOME </a></li>
+  <li><a href="our story and vision.html">OUR STORY AND VISION</a></li>
+  <li><a href="testimonials.html">TESTIMONIALS</a></li>
+  <li><a href="scheduling.html">SCHEDULING</a></li>
+  <li><a href="blog.html">BLOG</a></li>
+  <li><a href="donations.html">DONATIONS</a></li>
+</ul>
+ <style>
+  p{ 
+ background-color: hsla(30, 45%, 50%, 1);   
+ padding: 10px;
+      } 
+ </style>
+<br></br>
+<center>
+<div class="R&R" style="max-width:500px">
+ <img class="mySlides" src="mtshasta.jpg" style="width:100%" border="5">
+  <img class="mySlides" src="cabin2.jpg" style="width:100%" border="5">
+  <img class="mySlides" src="R&R.jpg" style="width:100%" border="5">
+  </center>
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
+
+<p><font size="5">Greetings! Welcome to Restoration & Hope Ranch. We are a non-profit retreat ranch set in Macdoel, California,
+for parents who are grieving the loss of a child, or children who have lost a sibling.</font></p>
+<p><font size="5">We offer over the phone counseling services as well as week-long retreats available. 
+  Currently, we offer three types of service: 
+  <br> - Work on our Grief Recovery workbook curriculum once a week for an hour over the phone. This is better suited for people who live far away from the ranch.</br>
+  <br>- Begin book program on the phone and then come out to the ranch for six days. After your visit, continue working on the workbook program for as long as it takes.</br>
+  <br>- Finally, you can come out to the ranch, begin the workbook program here and then continue the workbook after your visit for as long as it takes.</br></font></p>
+
+</body>
+</html>
